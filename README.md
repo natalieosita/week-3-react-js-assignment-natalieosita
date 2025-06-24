@@ -1,67 +1,97 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19812994&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+### 📄 `README.md`
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+```markdown
+# 🧩 PLP Task Manager
 
-## Assignment Overview
+A responsive React application built with Vite, Tailwind CSS, and custom component architecture. This project demonstrates clean state management with React hooks, dynamic theming via Context API, API integration, and component-driven design—all wrapped in a professional UI.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+---
 
-## Getting Started
+## 🚀 Features
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- 🧱 Modular component architecture (Button, Card, Navbar, Footer)
+- 🧠 State management with `useState`, `useEffect`, and Context API
+- 💾 Task persistence using localStorage via custom hooks
+- 🌐 External API integration using `JSONPlaceholder`
+- 🎨 Light/Dark theme toggle with Tailwind and localStorage memory
+- 📱 Fully responsive design using Tailwind CSS utility classes
+- 🔍 Task filtering (All / Active / Completed)
+- 🧼 Clean project structure for scalability and maintenance
 
-## Files Included
+---
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 🛠️ Tech Stack
 
-## Requirements
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── api/            # API fetch utilities
+├── components/     # Reusable UI components (Button, Card, etc.)
+├── context/        # ThemeContext using React Context API
+├── hooks/          # Custom hooks like useLocalStorage
+├── pages/          # Route-level pages (Home, TaskManager, PostsPage)
+├── utils/          # Utility functions (formatDate, debounce, etc.)
+└── App.jsx         # Main application component with routing
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 🔧 Setup Instructions
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/plp-task-manager.git
+   cd plp-task-manager
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## ✅ Tasks Overview
+
+- [x] Project bootstrapped with Vite + React
+- [x] Tailwind CSS configured and responsive layouts implemented
+- [x] Light/dark mode switch with context and persistence
+- [x] Task manager with CRUD, filters, localStorage
+- [x] API integration with loading/error handling
+- [x] Modular folder structure with reusable components & hooks
+
+---
+
+## 📸 Screenshots
+
+(https://vercel.com/natalieositas-projects/vite-react)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## Resources
 
